@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Umesh+Pandey+%F0%9F%91%8B;B.Tech+ECE+%7C+VLSI+%7C+VIPS+Delhi;Machine+Learning+%7C+IIoT+%7C+Computer+Vision;SIH+2025+Qualifier+%F0%9F%8F%86)](https://git.io/typing-svg)
 
-<img src="https://komarev.com/ghpvc/?username=umeshpandeysh&label=Profile+Views&color=0e75b6&style=flat" />
+
 
 </div>
 
