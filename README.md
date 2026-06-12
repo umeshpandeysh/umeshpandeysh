@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Umesh+Pandey+%F0%9F%91%8B;B.Tech+ECE+%7C+VLSI+%7C+VIPS+Delhi;Machine+Learning+%7C+IIoT+%7C+Computer+Vision;SIH+2025+Qualifier+%F0%9F%8F%86)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=B.Tech+ECE+%7C+VLSI+%7C+VIPS+Delhi+(2024%E2%80%9328);Machine+Learning+%7C+IIoT+%7C+Computer+Vision;SIH+2025+Qualifier+%F0%9F%8F%86;Building+Intelligent+Systems)](https://git.io/typing-svg)
 
 
 
@@ -10,82 +10,64 @@
 
 ---
 
-## About Me
+## About
 
-Second-year B.Tech student in ECE (VLSI Design & Technology) at VIPS, New Delhi. I build machine learning systems that sit at the intersection of embedded hardware and AI — from sensor data pipelines to real-time classification dashboards.
+Second-year B.Tech student in ECE (VLSI Design & Technology) at VIPS, New Delhi. I build ML systems that sit at the intersection of embedded hardware and data — from sensor signal processing and IoT data pipelines to NLP-based search and computer vision.
 
 ```python
-class UmeshPandey:
-    degree    = "B.Tech ECE — VLSI Design & Technology"
-    college   = "VIPS, New Delhi (2024–2028)"
-    focus     = ["Machine Learning", "IIoT", "Computer Vision", "NLP"]
-    languages = ["Python", "C++", "JavaScript", "TypeScript"]
-    currently = "Preparing for Amazon ML Summer School 2026"
-    jlpt      = "N5 Certified"
-    hackathons = "45+ participated · SIH 2025 Qualifier"
+profile = {
+    "degree":     "B.Tech ECE — VLSI Design & Technology, VIPS Delhi (2024–2028)",
+    "focus":      ["Machine Learning", "IIoT", "Computer Vision", "NLP"],
+    "languages":  ["Python", "C++", "JavaScript", "TypeScript"],
+    "tools":      ["PyTorch", "scikit-learn", "XGBoost", "SHAP", "FastAPI", "MQTT"],
+    "goal":       "Amazon ML Summer School 2026",
+    "jlpt":       "N5 Certified",
+    "hackathons": "45+ participated · SIH 2025 Qualifier",
+}
 ```
 
 ---
 
-## Featured Projects
+## Projects
 
-### 🌿 AayuSense — AI-Powered Electronic Tongue
-> **Collaborative project · SIH 2025 Qualifier**
-
-An electrochemical E-Tongue system for herbal quality assessment and adulteration detection. Built with a team using ESP32 hardware + Python ML + Next.js web dashboard.
-
-- **Hardware**: ESP32 with 8-sensor array (pH, TDS, ORP, Turbidity, Ionic, Reduction, Salt, Temp)
-- **ML**: Random Forest + XGBoost + SHAP explainability
-- **Novel**: Ayurvedic Rasa profiling — maps sensor signatures to taste categories
-- **Live**: [aayu-sense.vercel.app](https://aayu-sense.vercel.app)
-
-| Repo | Description |
-|------|-------------|
-| [AayuSense-AI-ETongue](https://github.com/umeshpandeysh/AayuSense-AI-ETongue) | Python ML backend — feature engineering, training, SHAP |
-| [Swayam-jhaa/AayuSense](https://github.com/Swayam-jhaa/AayuSense) | Next.js web dashboard + ESP32 firmware (collaborative) |
+| Repository | Domain | Stack | Status |
+|------------|--------|-------|--------|
+| [AayuSense-AI-ETongue](https://github.com/umeshpandeysh/AayuSense-AI-ETongue) | ML · IIoT · Embedded AI | Python, ESP32, scikit-learn, SHAP, Streamlit | 🟢 Active |
+| [Semantic-Movie-Recommendation](https://github.com/umeshpandeysh/Semantic-Movie-Recommendation) | NLP · Information Retrieval | Python, sentence-transformers, FastAPI, NumPy | 🟢 Active |
+| [Crop-Disease-Detection](https://github.com/umeshpandeysh/Crop-Disease-Detection) | Computer Vision | Python, PyTorch, EfficientNet-B0, Pillow | 🟡 Requires dataset |
+| [Public-Sanitation-Monitoring](https://github.com/umeshpandeysh/Public-Sanitation-Monitoring) | IIoT · Anomaly Detection | Python, MQTT, Flask, Streamlit, IsolationForest | 🟢 Active |
 
 ---
 
-### 🎬 Semantic Movie Recommendation
-> **NLP · Sentence Transformers · FastAPI**
+## AayuSense — Flagship Project
 
-Semantic search-based movie recommendation using sentence embeddings and cosine similarity over a 250-movie corpus. REST API backend with genre filtering.
+**Collaborative project · SIH 2025 Qualifier**
 
-[→ github.com/umeshpandeysh/Semantic-Movie-Recommendation](https://github.com/umeshpandeysh/Semantic-Movie-Recommendation)
+AI-powered Electronic Tongue for herbal quality assessment and adulteration detection. ESP32 hardware streams 8-sensor readings (pH, TDS, orp_mV, turbidity, Reduction_value, Ionic_value, Salt_content, temp_c) to a Python ML backend that classifies herb quality and maps Ayurvedic Rasa taste profiles using SHAP explainability.
 
----
-
-### 🌿 Crop Disease Detection
-> **Computer Vision · PyTorch · EfficientNet-B0**
-
-CNN-based plant disease classifier supporting 10 disease classes. Implements both a custom 4-block CNN and EfficientNet-B0 transfer learning, with Grad-CAM visualization.
-
-[→ github.com/umeshpandeysh/Crop-Disease-Detection](https://github.com/umeshpandeysh/Crop-Disease-Detection)
-
----
-
-### 🏙️ Public Sanitation Monitoring
-> **IIoT · MQTT · Anomaly Detection**
-
-IoT-based sanitation monitoring system using MQ-135, DHT22, and PMS5003 sensors. Implements multi-method anomaly detection (threshold, Z-score, IsolationForest) with a Streamlit dashboard and Flask REST API.
-
-[→ github.com/umeshpandeysh/Public-Sanitation-Monitoring](https://github.com/umeshpandeysh/Public-Sanitation-Monitoring)
+- **ML**: Random Forest + XGBoost with GridSearchCV · SHAP TreeExplainer
+- **Novel angle**: Rasa profiling — maps electrochemical signatures to 6 Ayurvedic taste categories
+- **Integration**: Python ML backend ↔ Next.js web dashboard ([aayu-sense.vercel.app](https://aayu-sense.vercel.app))
+- **Collaborators**: [Swayam Jha](https://github.com/Swayam-jhaa) et al. (web app + ESP32 firmware)
 
 ---
 
 ## Technical Skills
 
-**Machine Learning & AI**
-`scikit-learn` `XGBoost` `PyTorch` `SHAP` `Sentence Transformers` `NumPy` `Pandas`
+**ML / Data Science**
+`scikit-learn` `XGBoost` `PyTorch` `SHAP` `sentence-transformers` `NumPy` `Pandas` `SciPy`
 
-**Web & APIs**
-`FastAPI` `Flask` `Next.js` `React` `Streamlit` `TypeScript`
+**Embedded / IIoT**
+`ESP32` `Arduino` `MQTT` `C++` `Sensor Interfacing` `Serial Communication`
 
-**Embedded & IIoT**
-`ESP32` `Arduino` `MQTT` `C++` `Sensor Interfacing`
+**Backend / APIs**
+`FastAPI` `Flask` `uvicorn` `REST` `Pydantic`
 
-**Tools**
-`Git` `GitHub Actions` `Jupyter` `VS Code` `Python 3.10+`
+**Web**
+`React` `Next.js` `TypeScript` `Streamlit`
+
+**Engineering**
+`pytest` `GitHub Actions CI` `Git` `Makefile` `Jupyter` `VS Code`
 
 ---
 
@@ -93,28 +75,29 @@ IoT-based sanitation monitoring system using MQ-135, DHT22, and PMS5003 sensors.
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=umeshpandeysh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umeshpandeysh&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=umeshpandeysh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umeshpandeysh&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
 ---
 
-## Certifications & Achievements
+## Achievements
 
-| Achievement | Year |
-|-------------|------|
-| 🏆 SIH 2025 Qualifier — AayuSense AI E-Tongue | 2025 |
-| 🌐 45+ hackathons · 3 national finalists | 2023–2025 |
-| 🇯🇵 JLPT N5 Certified — Japanese Language Proficiency | 2024 |
+| | Achievement | Year |
+|---|-------------|------|
+| 🏆 | SIH 2025 Qualifier — AayuSense AI E-Tongue | 2025 |
+| 🌐 | 45+ hackathons · 3 national-level finalists | 2023–2025 |
+| 🇯🇵 | JLPT N5 — Japanese Language Proficiency | 2024 |
 
 ---
 
-## Currently Learning
+## Learning Now
 
-- Transformer architectures (Attention, BERT, fine-tuning)
-- Docker + CI/CD for ML model deployment
-- Reinforcement Learning fundamentals (OpenAI Gym)
+- Transformer fine-tuning (BERT, domain adaptation)
+- Docker + CI/CD for ML model serving
+- Reinforcement Learning (OpenAI Gym)
+- YOLO-based real-time object detection
 
 ---
 
@@ -127,5 +110,5 @@ IoT-based sanitation monitoring system using MQ-135, DHT22, and PMS5003 sensors.
 ---
 
 <div align="center">
-<em>Open to ML research collaborations · New Delhi, India</em>
+<em>New Delhi, India · Open to ML collaborations and research opportunities</em>
 </div>
