@@ -1,164 +1,131 @@
+# Umesh Pandey
+
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Umesh+Pandey+%F0%9F%91%8B;ML+Engineer+%7C+Embedded+AI+%7C+IIoT;SIH+2025+Qualifier+%F0%9F%8F%86;Building+Intelligent+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Umesh+Pandey+%F0%9F%91%8B;B.Tech+ECE+%7C+VLSI+%7C+VIPS+Delhi;Machine+Learning+%7C+IIoT+%7C+Computer+Vision;SIH+2025+Qualifier+%F0%9F%8F%86)](https://git.io/typing-svg)
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=umeshpandeysh&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/badge/B.Tech-ECE%20%7C%20VLSI-blue?style=flat&logo=graduation-cap" />
-  <img src="https://img.shields.io/badge/JLPT-N5%20Certified-red?style=flat&logo=japan" />
-  <img src="https://img.shields.io/badge/SIH%202025-Qualifier-gold?style=flat&logo=trophy" />
-</p>
-
-> *"Building intelligent systems that bridge embedded hardware and machine learning."*
+<img src="https://komarev.com/ghpvc/?username=umeshpandeysh&label=Profile+Views&color=0e75b6&style=flat" />
 
 </div>
 
 ---
 
-## 🧠 About Me
+## About Me
+
+Second-year B.Tech student in ECE (VLSI Design & Technology) at VIPS, New Delhi. I build machine learning systems that sit at the intersection of embedded hardware and AI — from sensor data pipelines to real-time classification dashboards.
 
 ```python
 class UmeshPandey:
-    def __init__(self):
-        self.name        = "Umesh Pandey"
-        self.degree      = "B.Tech ECE (VLSI Design & Technology)"
-        self.college     = "VIPS, New Delhi"
-        self.batch       = "2024 – 2028"
-        self.location    = "New Delhi, India 🇮🇳"
-        self.languages   = ["Python", "C++", "JavaScript"]
-        self.interests   = ["ML/AI", "Embedded AI", "IIoT", "NLP", "Computer Vision"]
-        self.hackathons  = "45+ participated · 10+ national · 3 national finalist · SIH 2025 Qualifier"
-        self.currently   = "Chasing Amazon ML Summer School 2026 🚀"
-
-    def greet(self):
-        return "Let's build something that matters!"
+    degree    = "B.Tech ECE — VLSI Design & Technology"
+    college   = "VIPS, New Delhi (2024–2028)"
+    focus     = ["Machine Learning", "IIoT", "Computer Vision", "NLP"]
+    languages = ["Python", "C++", "JavaScript", "TypeScript"]
+    currently = "Preparing for Amazon ML Summer School 2026"
+    jlpt      = "N5 Certified"
+    hackathons = "45+ participated · SIH 2025 Qualifier"
 ```
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-| 🔬 Project | 🏷️ Domain | ⚙️ Stack | 🌟 Highlight |
-|---|---|---|---|
-| [**AayuSense-AI-ETongue**](https://github.com/umeshpandeysh/AayuSense-AI-ETongue) | Herbal Quality AI | Python · RF · XGBoost · Streamlit | SIH 2025 Qualifier — e-tongue sensor fusion |
-| [**Semantic-Movie-Recommendation**](https://github.com/umeshpandeysh/Semantic-Movie-Recommendation) | NLP / RecSys | Sentence-Transformers · FastAPI · Cosine Sim | Semantic search over 250+ movie corpus |
-| [**Crop-Disease-Detection**](https://github.com/umeshpandeysh/Crop-Disease-Detection) | Computer Vision | PyTorch · EfficientNet-B0 · CNN | 10-class plant disease classifier with Grad-CAM |
-| [**Public-Sanitation-Monitoring**](https://github.com/umeshpandeysh/Public-Sanitation-Monitoring) | IIoT / Edge AI | MQTT · Flask · Streamlit · Sklearn | Multi-method anomaly detection for MQ-135/DHT22/PMS5003 |
+### 🌿 AayuSense — AI-Powered Electronic Tongue
+> **Collaborative project · SIH 2025 Qualifier**
+
+An electrochemical E-Tongue system for herbal quality assessment and adulteration detection. Built with a team using ESP32 hardware + Python ML + Next.js web dashboard.
+
+- **Hardware**: ESP32 with 8-sensor array (pH, TDS, ORP, Turbidity, Ionic, Reduction, Salt, Temp)
+- **ML**: Random Forest + XGBoost + SHAP explainability
+- **Novel**: Ayurvedic Rasa profiling — maps sensor signatures to taste categories
+- **Live**: [aayu-sense.vercel.app](https://aayu-sense.vercel.app)
+
+| Repo | Description |
+|------|-------------|
+| [AayuSense-AI-ETongue](https://github.com/umeshpandeysh/AayuSense-AI-ETongue) | Python ML backend — feature engineering, training, SHAP |
+| [Swayam-jhaa/AayuSense](https://github.com/Swayam-jhaa/AayuSense) | Next.js web dashboard + ESP32 firmware (collaborative) |
 
 ---
 
-## 🛠️ Tech Stack
+### 🎬 Semantic Movie Recommendation
+> **NLP · Sentence Transformers · FastAPI**
 
-<div align="center">
+Semantic search-based movie recommendation using sentence embeddings and cosine similarity over a 250-movie corpus. REST API backend with genre filtering.
 
-**Languages**
+[→ github.com/umeshpandeysh/Semantic-Movie-Recommendation](https://github.com/umeshpandeysh/Semantic-Movie-Recommendation)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+---
+
+### 🌿 Crop Disease Detection
+> **Computer Vision · PyTorch · EfficientNet-B0**
+
+CNN-based plant disease classifier supporting 10 disease classes. Implements both a custom 4-block CNN and EfficientNet-B0 transfer learning, with Grad-CAM visualization.
+
+[→ github.com/umeshpandeysh/Crop-Disease-Detection](https://github.com/umeshpandeysh/Crop-Disease-Detection)
+
+---
+
+### 🏙️ Public Sanitation Monitoring
+> **IIoT · MQTT · Anomaly Detection**
+
+IoT-based sanitation monitoring system using MQ-135, DHT22, and PMS5003 sensors. Implements multi-method anomaly detection (threshold, Z-score, IsolationForest) with a Streamlit dashboard and Flask REST API.
+
+[→ github.com/umeshpandeysh/Public-Sanitation-Monitoring](https://github.com/umeshpandeysh/Public-Sanitation-Monitoring)
+
+---
+
+## Technical Skills
 
 **Machine Learning & AI**
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)
+`scikit-learn` `XGBoost` `PyTorch` `SHAP` `Sentence Transformers` `NumPy` `Pandas`
 
 **Web & APIs**
+`FastAPI` `Flask` `Next.js` `React` `Streamlit` `TypeScript`
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+**Embedded & IIoT**
+`ESP32` `Arduino` `MQTT` `C++` `Sensor Interfacing`
 
-**IIoT & Embedded**
+**Tools**
+`Git` `GitHub Actions` `Jupyter` `VS Code` `Python 3.10+`
 
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+---
 
-**Tools & DevOps**
+## GitHub Stats
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<div align="center">
+
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=umeshpandeysh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umeshpandeysh&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## Certifications & Achievements
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=umeshpandeysh&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umeshpandeysh&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=umeshpandeysh&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![Umesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=umeshpandeysh&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
+| Achievement | Year |
+|-------------|------|
+| 🏆 SIH 2025 Qualifier — AayuSense AI E-Tongue | 2025 |
+| 🌐 45+ hackathons · 3 national finalists | 2023–2025 |
+| 🇯🇵 JLPT N5 Certified — Japanese Language Proficiency | 2024 |
 
 ---
 
-## 🏆 Achievements & Certifications
+## Currently Learning
 
-| 🏅 Achievement | 📅 Year |
-|---|---|
-| 🥇 **SIH 2025 Qualifier** — AayuSense AI E-Tongue | 2025 |
-| 🥈 **National Finalist** — 3 national-level hackathons | 2024–2025 |
-| 🌐 **45+ Hackathons** participated · 10+ national level | 2023–2025 |
-| 🇯🇵 **JLPT N5 Certified** — Japanese Language Proficiency | 2024 |
+- Transformer architectures (Attention, BERT, fine-tuning)
+- Docker + CI/CD for ML model deployment
+- Reinforcement Learning fundamentals (OpenAI Gym)
 
 ---
 
-## 🎯 Current Focus & Learning Roadmap
+## Contact
 
-**2025 — Foundation Building**
-
-```
-[███████████░░░] Transformers & Attention Mechanisms
-[██████████░░░░] FastAPI + Docker deployment
-[█████████░░░░░] Reinforcement Learning (OpenAI Gym)
-[████████░░░░░░] YOLO Object Detection
-```
-
-**2026 Goals**
-
-- 🎯 Amazon ML Summer School 2026 selection
-- 🤝 First significant open-source contribution
-- 🐳 Deploy a production ML API with Docker + CI/CD
-- 📄 Attempt a research paper submission (NLP / IIoT)
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-umeshpandey0607%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:umeshpandey0607@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Umesh%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/umesh-pandey-9920362a4)
-[![GitHub](https://img.shields.io/badge/GitHub-umeshpandeysh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/umeshpandeysh)
-
-</div>
+📧 [umeshpandey0607@gmail.com](mailto:umeshpandey0607@gmail.com)
+💼 [linkedin.com/in/umesh-pandey-9920362a4](https://linkedin.com/in/umesh-pandey-9920362a4)
+🐙 [github.com/umeshpandeysh](https://github.com/umeshpandeysh)
 
 ---
 
 <div align="center">
-
-*📍 New Delhi, India · Open to ML research collaborations and project contributions*
-
+<em>Open to ML research collaborations · New Delhi, India</em>
 </div>
