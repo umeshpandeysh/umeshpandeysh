@@ -112,5 +112,5 @@ AI-powered Electronic Tongue for herbal quality assessment and adulteration dete
 <div align="center">
 <em>New Delhi, India · Open to ML collaborations and research opportunities</em>
 <br><br>
-<sub>Last updated: July 15, 2026</sub>
+<sub>Last updated: July 16, 2026</sub>
 </div>
