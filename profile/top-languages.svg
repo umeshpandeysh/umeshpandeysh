@@ -11,7 +11,7 @@
   <!-- Progress Bar -->
   <g>
     <rect x="25" y="55" width="400" height="8" fill="#24283b" rx="4"/>
-    <rect x="25" y="55" width="188" height="8" fill="#f1e05a" rx="3"/><rect x="213" y="55" width="88" height="8" fill="#3572A5" /><rect x="301" y="55" width="71" height="8" fill="#3178c6" /><rect x="372" y="55" width="21" height="8" fill="#DA5B0B" /><rect x="393" y="55" width="18" height="8" fill="#e34c26" />
+    <rect x="25" y="55" width="191" height="8" fill="#f1e05a" rx="3"/><rect x="216" y="55" width="84" height="8" fill="#3572A5" /><rect x="300" y="55" width="68" height="8" fill="#3178c6" /><rect x="368" y="55" width="24" height="8" fill="#e34c26" /><rect x="392" y="55" width="20" height="8" fill="#DA5B0B" />
   </g>
 
   <!-- Language List -->
@@ -20,31 +20,31 @@
       <g transform="translate(25, 85)">
         <circle cx="5" cy="5" r="5" fill="#f1e05a"/>
         <text x="16" y="9" class="stat-label">JavaScript</text>
-        <text x="140" y="9" class="stat-value">47.1%</text>
+        <text x="140" y="9" class="stat-value">47.8%</text>
       </g>
     
       <g transform="translate(225, 85)">
         <circle cx="5" cy="5" r="5" fill="#3572A5"/>
         <text x="16" y="9" class="stat-label">Python</text>
-        <text x="140" y="9" class="stat-value">21.9%</text>
+        <text x="140" y="9" class="stat-value">20.9%</text>
       </g>
     
       <g transform="translate(25, 110)">
         <circle cx="5" cy="5" r="5" fill="#3178c6"/>
         <text x="16" y="9" class="stat-label">TypeScript</text>
-        <text x="140" y="9" class="stat-value">17.9%</text>
+        <text x="140" y="9" class="stat-value">17.0%</text>
       </g>
     
       <g transform="translate(225, 110)">
-        <circle cx="5" cy="5" r="5" fill="#DA5B0B"/>
-        <text x="16" y="9" class="stat-label">Jupyter Notebook</text>
-        <text x="140" y="9" class="stat-value">5.2%</text>
+        <circle cx="5" cy="5" r="5" fill="#e34c26"/>
+        <text x="16" y="9" class="stat-label">HTML</text>
+        <text x="140" y="9" class="stat-value">5.9%</text>
       </g>
     
       <g transform="translate(25, 135)">
-        <circle cx="5" cy="5" r="5" fill="#e34c26"/>
-        <text x="16" y="9" class="stat-label">HTML</text>
-        <text x="140" y="9" class="stat-value">4.5%</text>
+        <circle cx="5" cy="5" r="5" fill="#DA5B0B"/>
+        <text x="16" y="9" class="stat-label">Jupyter Notebook</text>
+        <text x="140" y="9" class="stat-value">5.0%</text>
       </g>
     
   </g>
