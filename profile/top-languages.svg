@@ -11,7 +11,7 @@
   <!-- Progress Bar -->
   <g>
     <rect x="25" y="55" width="400" height="8" fill="#24283b" rx="4"/>
-    <rect x="25" y="55" width="192" height="8" fill="#f1e05a" rx="3"/><rect x="217" y="55" width="81" height="8" fill="#3572A5" /><rect x="298" y="55" width="64" height="8" fill="#3178c6" /><rect x="362" y="55" width="29" height="8" fill="#e34c26" /><rect x="391" y="55" width="19" height="8" fill="#DA5B0B" />
+    <rect x="25" y="55" width="196" height="8" fill="#f1e05a" rx="3"/><rect x="221" y="55" width="79" height="8" fill="#3572A5" /><rect x="300" y="55" width="63" height="8" fill="#3178c6" /><rect x="363" y="55" width="28" height="8" fill="#e34c26" /><rect x="391" y="55" width="19" height="8" fill="#DA5B0B" />
   </g>
 
   <!-- Language List -->
@@ -20,31 +20,31 @@
       <g transform="translate(25, 85)">
         <circle cx="5" cy="5" r="5" fill="#f1e05a"/>
         <text x="16" y="9" class="stat-label">JavaScript</text>
-        <text x="140" y="9" class="stat-value">47.9%</text>
+        <text x="140" y="9" class="stat-value">48.9%</text>
       </g>
     
       <g transform="translate(225, 85)">
         <circle cx="5" cy="5" r="5" fill="#3572A5"/>
         <text x="16" y="9" class="stat-label">Python</text>
-        <text x="140" y="9" class="stat-value">20.2%</text>
+        <text x="140" y="9" class="stat-value">19.7%</text>
       </g>
     
       <g transform="translate(25, 110)">
         <circle cx="5" cy="5" r="5" fill="#3178c6"/>
         <text x="16" y="9" class="stat-label">TypeScript</text>
-        <text x="140" y="9" class="stat-value">16.1%</text>
+        <text x="140" y="9" class="stat-value">15.9%</text>
       </g>
     
       <g transform="translate(225, 110)">
         <circle cx="5" cy="5" r="5" fill="#e34c26"/>
         <text x="16" y="9" class="stat-label">HTML</text>
-        <text x="140" y="9" class="stat-value">7.2%</text>
+        <text x="140" y="9" class="stat-value">7.1%</text>
       </g>
     
       <g transform="translate(25, 135)">
         <circle cx="5" cy="5" r="5" fill="#DA5B0B"/>
         <text x="16" y="9" class="stat-label">Jupyter Notebook</text>
-        <text x="140" y="9" class="stat-value">4.7%</text>
+        <text x="140" y="9" class="stat-value">4.6%</text>
       </g>
     
   </g>
