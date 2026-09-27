@@ -26,13 +26,13 @@
       <g transform="translate(225, 85)">
         <circle cx="5" cy="5" r="5" fill="#3572A5"/>
         <text x="16" y="9" class="stat-label">Python</text>
-        <text x="140" y="9" class="stat-value">38.1%</text>
+        <text x="140" y="9" class="stat-value">38.0%</text>
       </g>
     
       <g transform="translate(25, 110)">
         <circle cx="5" cy="5" r="5" fill="#3178c6"/>
         <text x="16" y="9" class="stat-label">TypeScript</text>
-        <text x="140" y="9" class="stat-value">8.5%</text>
+        <text x="140" y="9" class="stat-value">8.4%</text>
       </g>
     
       <g transform="translate(225, 110)">
