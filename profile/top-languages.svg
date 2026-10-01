@@ -11,7 +11,7 @@
   <!-- Progress Bar -->
   <g>
     <rect x="25" y="55" width="400" height="8" fill="#24283b" rx="4"/>
-    <rect x="25" y="55" width="194" height="8" fill="#f1e05a" rx="3"/><rect x="219" y="55" width="112" height="8" fill="#3572A5" /><rect x="331" y="55" width="58" height="8" fill="#e34c26" /><rect x="389" y="55" width="22" height="8" fill="#3178c6" /><rect x="411" y="55" width="6" height="8" fill="#DA5B0B" />
+    <rect x="25" y="55" width="194" height="8" fill="#f1e05a" rx="3"/><rect x="219" y="55" width="111" height="8" fill="#3572A5" /><rect x="330" y="55" width="58" height="8" fill="#e34c26" /><rect x="388" y="55" width="22" height="8" fill="#3178c6" /><rect x="410" y="55" width="6" height="8" fill="#DA5B0B" />
   </g>
 
   <!-- Language List -->
@@ -20,7 +20,7 @@
       <g transform="translate(25, 85)">
         <circle cx="5" cy="5" r="5" fill="#f1e05a"/>
         <text x="16" y="9" class="stat-label">JavaScript</text>
-        <text x="140" y="9" class="stat-value">48.5%</text>
+        <text x="140" y="9" class="stat-value">48.6%</text>
       </g>
     
       <g transform="translate(225, 85)">
