@@ -21,7 +21,7 @@
     <g transform="translate(0, 28)">
       <path class="icon" d="M4 1.75C4 .784 4.784 0 5.75 0h6.5c.966 0 1.75.784 1.75 1.75v12.5c0 .414-.336.75-.75.75H4.75a.75.75 0 0 1-.75-.75V1.75zm1.75-.25a.25.25 0 0 0-.25.25v11h8v-11a.25.25 0 0 0-.25-.25h-7.5z"/>
       <text x="25" y="12" class="stat-label">Public Repositories:</text>
-      <text x="220" y="12" class="stat-value">8</text>
+      <text x="220" y="12" class="stat-value">9</text>
     </g>
 
     <!-- Total Forks -->
