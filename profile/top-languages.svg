@@ -11,7 +11,7 @@
   <!-- Progress Bar -->
   <g>
     <rect x="25" y="55" width="400" height="8" fill="#24283b" rx="4"/>
-    <rect x="25" y="55" width="169" height="8" fill="#f1e05a" rx="3"/><rect x="194" y="55" width="109" height="8" fill="#3572A5" /><rect x="303" y="55" width="57" height="8" fill="#3178c6" /><rect x="360" y="55" width="51" height="8" fill="#e34c26" /><rect x="411" y="55" width="5" height="8" fill="#DA5B0B" />
+    <rect x="25" y="55" width="169" height="8" fill="#f1e05a" rx="3"/><rect x="194" y="55" width="109" height="8" fill="#3572A5" /><rect x="303" y="55" width="57" height="8" fill="#3178c6" /><rect x="360" y="55" width="50" height="8" fill="#e34c26" /><rect x="410" y="55" width="5" height="8" fill="#DA5B0B" />
   </g>
 
   <!-- Language List -->
